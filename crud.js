@@ -54,7 +54,7 @@ function criarCardElement(cardHTML) {
 }
 
 function apagar(botao) {
-    botao.parentNode.parentNode.parentNode.remove()
+    botao.parentNode.parentNode.remove()
 }
 
 function gerar_card(tarefa) {
